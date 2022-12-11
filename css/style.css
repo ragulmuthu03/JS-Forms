@@ -1,0 +1,42 @@
+/* To make form vertically and horizontally center align */
+html {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    background: #16BFFD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+input,
+button {
+    padding: 15px;
+    margin: 10px auto;
+    display: block;
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #4e4e4e;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+span {
+    color: red;
+    margin: 10px auto;
+}
